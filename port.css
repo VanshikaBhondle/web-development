@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #a81a72;
+    color: #c7bb0d;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin:  1rem;
+}
+
+nav ul li a {
+    color: #d6c6ee;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.project {
+    background: #dfd549;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 1%;
+    border: 1px solid #121416;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
